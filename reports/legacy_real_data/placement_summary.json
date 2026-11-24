@@ -1,0 +1,8 @@
+{
+  "on_target_shots": 316,
+  "auc_pre_strike_geometry": 0.811,
+  "auc_with_placement": 0.815,
+  "auc_with_keeper_distance": 0.817,
+  "prob_top_corner": 0.265,
+  "prob_keeper_midriff": 0.247
+}

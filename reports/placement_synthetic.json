@@ -1,0 +1,25 @@
+{
+  "on_target_shots": 2135,
+  "evaluation": "5-fold stratified group cross-fitting by match_id",
+  "pre_strike_geometry_oof": {
+    "log_loss": 0.642,
+    "brier": 0.2258,
+    "ece_8bin": 0.017,
+    "roc_auc": 0.6645
+  },
+  "with_placement_oof": {
+    "log_loss": 0.6426,
+    "brier": 0.226,
+    "ece_8bin": 0.0161,
+    "roc_auc": 0.6634
+  },
+  "with_keeper_distance_oof": {
+    "log_loss": 0.6422,
+    "brier": 0.2259,
+    "ece_8bin": 0.0182,
+    "roc_auc": 0.6643
+  },
+  "delta_auc_placement_minus_pre": -0.00112,
+  "delta_auc_keeper_minus_pre": -0.00018,
+  "label": "synthetic negative-control placement"
+}

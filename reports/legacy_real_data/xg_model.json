@@ -1,0 +1,34 @@
+{
+  "shots": 918,
+  "goals": 84,
+  "log_loss": 0.2307,
+  "roc_auc": 0.838,
+  "coefficients": {
+    "distance": -0.152,
+    "angle": 1.25,
+    "header": -2.3035,
+    "set_piece": -0.6452
+  },
+  "intercept": 0.4225,
+  "corr_with_statsbomb_xg": 0.742,
+  "v2_freeze_frame": {
+    "shots_with_frames": 915,
+    "roc_auc": 0.842,
+    "log_loss": 0.2234,
+    "coef_blockers": -0.0179,
+    "coef_gk_dist": 0.1286,
+    "corr_with_statsbomb_xg": 0.827
+  },
+  "top_xa": {
+    "Thierry Henry": 9.46,
+    "Robert Pir\u00e8s": 6.22,
+    "Dennis Bergkamp": 4.88,
+    "Patrick Vieira": 3.31,
+    "Fredrik Ljungberg": 2.84
+  },
+  "xgot": {
+    "on_target_shots": 319,
+    "coef_wide": -0.1059,
+    "coef_high": -0.1283
+  }
+}

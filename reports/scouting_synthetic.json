@@ -1,0 +1,127 @@
+{
+  "label": "synthetic known-truth baseline",
+  "method": "player log-odds finishing offset with N(0, prior_sd^2) regularisation and Laplace uncertainty",
+  "prior_sd": 0.75,
+  "players": {
+    "Player A": {
+      "shots": 332,
+      "goals": 111,
+      "xg": 106.4849,
+      "goals_minus_xg": 4.5151,
+      "finishing_logodds_offset": 0.0741,
+      "odds_multiplier": 1.0769,
+      "offset_se_laplace": 0.1275,
+      "offset_ci_low": -0.1758,
+      "offset_ci_high": 0.324,
+      "learning_priority": 0.8919
+    },
+    "Player I": {
+      "shots": 314,
+      "goals": 106,
+      "xg": 106.2479,
+      "goals_minus_xg": -0.2479,
+      "finishing_logodds_offset": -0.0041,
+      "odds_multiplier": 0.9959,
+      "offset_se_laplace": 0.129,
+      "offset_ci_low": -0.257,
+      "offset_ci_high": 0.2487,
+      "learning_priority": 0.8855
+    },
+    "Player G": {
+      "shots": 314,
+      "goals": 108,
+      "xg": 104.1745,
+      "goals_minus_xg": 3.8255,
+      "finishing_logodds_offset": 0.0625,
+      "odds_multiplier": 1.0645,
+      "offset_se_laplace": 0.1273,
+      "offset_ci_low": -0.1871,
+      "offset_ci_high": 0.3121,
+      "learning_priority": 0.8509
+    },
+    "Player H": {
+      "shots": 322,
+      "goals": 93,
+      "xg": 100.6002,
+      "goals_minus_xg": -7.6002,
+      "finishing_logodds_offset": -0.1275,
+      "odds_multiplier": 0.8803,
+      "offset_se_laplace": 0.1308,
+      "offset_ci_low": -0.3839,
+      "offset_ci_high": 0.129,
+      "learning_priority": 0.8779
+    },
+    "Player J": {
+      "shots": 307,
+      "goals": 100,
+      "xg": 100.5386,
+      "goals_minus_xg": -0.5386,
+      "finishing_logodds_offset": -0.0093,
+      "odds_multiplier": 0.9908,
+      "offset_se_laplace": 0.1313,
+      "offset_ci_low": -0.2666,
+      "offset_ci_high": 0.2481,
+      "learning_priority": 0.9125
+    },
+    "Player C": {
+      "shots": 284,
+      "goals": 90,
+      "xg": 92.546,
+      "goals_minus_xg": -2.546,
+      "finishing_logodds_offset": -0.0468,
+      "odds_multiplier": 0.9542,
+      "offset_se_laplace": 0.1361,
+      "offset_ci_low": -0.3135,
+      "offset_ci_high": 0.2199,
+      "learning_priority": 0.959
+    },
+    "Player B": {
+      "shots": 285,
+      "goals": 103,
+      "xg": 91.9613,
+      "goals_minus_xg": 11.0387,
+      "finishing_logodds_offset": 0.2033,
+      "odds_multiplier": 1.2254,
+      "offset_se_laplace": 0.1341,
+      "offset_ci_low": -0.0596,
+      "offset_ci_high": 0.4661,
+      "learning_priority": 0.9761
+    },
+    "Player D": {
+      "shots": 286,
+      "goals": 79,
+      "xg": 90.0193,
+      "goals_minus_xg": -11.0193,
+      "finishing_logodds_offset": -0.2096,
+      "odds_multiplier": 0.8109,
+      "offset_se_laplace": 0.1403,
+      "offset_ci_low": -0.4846,
+      "offset_ci_high": 0.0655,
+      "learning_priority": 1.0
+    },
+    "Player E": {
+      "shots": 279,
+      "goals": 92,
+      "xg": 88.6777,
+      "goals_minus_xg": 3.3223,
+      "finishing_logodds_offset": 0.0605,
+      "odds_multiplier": 1.0624,
+      "offset_se_laplace": 0.1344,
+      "offset_ci_low": -0.203,
+      "offset_ci_high": 0.324,
+      "learning_priority": 0.92
+    },
+    "Player F": {
+      "shots": 277,
+      "goals": 86,
+      "xg": 86.1624,
+      "goals_minus_xg": -0.1624,
+      "finishing_logodds_offset": -0.003,
+      "odds_multiplier": 0.997,
+      "offset_se_laplace": 0.137,
+      "offset_ci_low": -0.2715,
+      "offset_ci_high": 0.2654,
+      "learning_priority": 0.9521
+    }
+  }
+}

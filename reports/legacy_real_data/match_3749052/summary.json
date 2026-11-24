@@ -1,0 +1,13 @@
+{
+  "Arsenal": {
+    "goals": 3,
+    "xg": 1.18,
+    "shots": 11
+  },
+  "Wolverhampton Wanderers": {
+    "goals": 1,
+    "xg": 0.64,
+    "shots": 13
+  },
+  "verdict": "Arsenal created more (1.18 xG)"
+}

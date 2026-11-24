@@ -1,0 +1,52 @@
+{
+  "label": "synthetic known-truth",
+  "shots": 1200,
+  "goals": 370,
+  "evaluation": "5-fold stratified group cross-fitting by match_id",
+  "geometry_oof": {
+    "log_loss": 0.5317,
+    "brier": 0.1776,
+    "ece_8bin": 0.0291,
+    "roc_auc": 0.7407
+  },
+  "full_fit_coefficients_descriptive_only": {
+    "distance": -0.0799,
+    "angle": 1.0351,
+    "header": -0.723,
+    "set_piece": -0.6187
+  },
+  "full_fit_intercept_descriptive_only": 0.1354,
+  "geometry_corr_with_oracle_probability": 0.8595,
+  "freeze_frame_comparison": {
+    "shots_with_frames": 1200,
+    "geometry_same_rows_oof": {
+      "log_loss": 0.5317,
+      "brier": 0.1776,
+      "ece_8bin": 0.0291,
+      "roc_auc": 0.7407
+    },
+    "freeze_frame_oof": {
+      "log_loss": 0.5003,
+      "brier": 0.1656,
+      "ece_8bin": 0.0188,
+      "roc_auc": 0.7847
+    },
+    "delta_log_loss_freeze_minus_geometry": -0.03135,
+    "delta_auc_freeze_minus_geometry": 0.04401,
+    "full_fit_coef_blockers_descriptive_only": -0.4036,
+    "full_fit_coef_gk_dist_descriptive_only": 0.0353,
+    "geometry_corr_with_oracle_probability": 0.8595,
+    "freeze_frame_corr_with_oracle_probability": 0.9884
+  },
+  "xgot": {
+    "on_target_shots": 840,
+    "full_fit_coef_wide_descriptive_only": -0.0465,
+    "full_fit_coef_high_descriptive_only": -0.1859,
+    "oof": {
+      "log_loss": 0.6368,
+      "brier": 0.2235,
+      "ece_8bin": 0.0221,
+      "roc_auc": 0.6624
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "design": "known-truth synthetic worlds; 5-fold stratified group CV by match",
+  "conditions": [
+    {
+      "shots": 450,
+      "freeze_signal": "absent",
+      "worlds": 20,
+      "median_delta_auc": -0.0019,
+      "median_delta_logloss": 0.00229,
+      "median_delta_brier": 0.00082,
+      "freeze_better_logloss_fraction": 0.15,
+      "freeze_better_auc_fraction": 0.1,
+      "median_geometry_oracle_corr": 0.9859,
+      "median_freeze_oracle_corr": 0.9802
+    },
+    {
+      "shots": 450,
+      "freeze_signal": "planted",
+      "worlds": 20,
+      "median_delta_auc": 0.0308,
+      "median_delta_logloss": -0.02255,
+      "median_delta_brier": -0.00945,
+      "freeze_better_logloss_fraction": 1.0,
+      "freeze_better_auc_fraction": 1.0,
+      "median_geometry_oracle_corr": 0.8399,
+      "median_freeze_oracle_corr": 0.9732
+    },
+    {
+      "shots": 900,
+      "freeze_signal": "absent",
+      "worlds": 20,
+      "median_delta_auc": -0.0018,
+      "median_delta_logloss": 0.00122,
+      "median_delta_brier": 0.0007,
+      "freeze_better_logloss_fraction": 0.1,
+      "freeze_better_auc_fraction": 0.15,
+      "median_geometry_oracle_corr": 0.9933,
+      "median_freeze_oracle_corr": 0.9898
+    },
+    {
+      "shots": 900,
+      "freeze_signal": "planted",
+      "worlds": 20,
+      "median_delta_auc": 0.034,
+      "median_delta_logloss": -0.02634,
+      "median_delta_brier": -0.01084,
+      "freeze_better_logloss_fraction": 1.0,
+      "freeze_better_auc_fraction": 1.0,
+      "median_geometry_oracle_corr": 0.8495,
+      "median_freeze_oracle_corr": 0.9872
+    },
+    {
+      "shots": 1800,
+      "freeze_signal": "absent",
+      "worlds": 20,
+      "median_delta_auc": -0.0006,
+      "median_delta_logloss": 0.0007,
+      "median_delta_brier": 0.00027,
+      "freeze_better_logloss_fraction": 0.15,
+      "freeze_better_auc_fraction": 0.15,
+      "median_geometry_oracle_corr": 0.9975,
+      "median_freeze_oracle_corr": 0.9953
+    },
+    {
+      "shots": 1800,
+      "freeze_signal": "planted",
+      "worlds": 20,
+      "median_delta_auc": 0.0361,
+      "median_delta_logloss": -0.02823,
+      "median_delta_brier": -0.01154,
+      "freeze_better_logloss_fraction": 1.0,
+      "freeze_better_auc_fraction": 1.0,
+      "median_geometry_oracle_corr": 0.8507,
+      "median_freeze_oracle_corr": 0.9912
+    }
+  ]
+}
